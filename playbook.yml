@@ -2,8 +2,6 @@
 
 - hosts: test_server
 
-  connection: local
-
   become: yes
  
   gather_facts: false
