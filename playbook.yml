@@ -5,6 +5,8 @@
   connection: local
 
   become: yes
+ 
+  gather-facts: false
 
   vars_files:
           
