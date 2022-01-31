@@ -1,5 +1,4 @@
 # Devops-Php-Project
-Devops-PHP-Project edureka
 
  Steps: 
  1. Install below tools and configure on Master Server(Jenkins Server)
