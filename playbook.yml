@@ -1,5 +1,7 @@
 ---
 
+  admin_user: worker
+
 - hosts: test_server
   
   become: yes
