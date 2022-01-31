@@ -5,18 +5,14 @@
   gather_facts: false
 
   tasks:
-    - name: Install python 3.6 and pip3
-      yum:
-        name:
-          - python36
-          - libselinux-python
-        state: present
+    - name: Install python and pip
+      apt: name={{item}} state=present update_cache=yes
+      with_items:
+        - python3-pip
+        - python3
 
-    - name: Install SELinux for Python 3
-      pip:
-        name:
-          - selinux
-        state: present
-        executable: pip3
+    - name: Update repositories cache
+      apt: update-cache=yes
+
       vars:
         ansible_python_interpreter: /usr/bin/python3
