@@ -51,7 +51,9 @@
     pip:
 
       name: docker
-
+      
+    vars:
+        ansible_python_interpreter: /usr/bin/python3
 
   - name: Add adminstrator to docker group
 
