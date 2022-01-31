@@ -25,7 +25,7 @@ pipeline {
 
          stage('Install docker and its dependencies and run contianer') {
             steps {
-                sh "ansible-playbook playbook.yml -i servers.inv --private-key /home/sita/.ssh/sita.pub"
+                sh "ansible-playbook playbook.yml -i servers.inv"
             }
         }
     }
