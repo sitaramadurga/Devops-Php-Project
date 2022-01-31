@@ -1,2 +1,2 @@
 [test_server]
-test_server ansible_host=192.168.43.28 ansible_ssh_user=worker ansible_ssh_pass=worker
+test_server ansible_host=192.168.43.28 ansible_ssh_user=root ansible_ssh_pass=rootroot
