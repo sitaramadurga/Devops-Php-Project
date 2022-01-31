@@ -11,4 +11,4 @@ Devops-PHP-Project edureka
  6. Change your test server ip in servers.inv and push the commit 
  7. When any commit received pipeline job will be automatically triggered
  
- Note: It is targeted and tested only on centos 7 
+ #Note: It is targeted and tested only on centos 7 
