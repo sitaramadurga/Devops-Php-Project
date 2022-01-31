@@ -25,7 +25,7 @@ pipeline {
 
          stage('Install docker and its dependencies and run contianer') {
             steps {
-               ansiblePlaybook credentialsId: 'test-server', installation: 'ansible', inventory: 'servers.inv', playbook: 'playbook.yml'
+                sh "ansible-playbook playbook.yml -i servers.inv"
             }
         }
     }
