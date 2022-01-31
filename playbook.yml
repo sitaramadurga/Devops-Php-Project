@@ -6,7 +6,7 @@
 
   become: yes
  
-  gather-facts: false
+  gather_facts: false
 
   vars_files:
           
