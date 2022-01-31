@@ -1,5 +1,7 @@
 ---
 
+admin_user: worker
+
 docker_required_packages:
 
   - "apt-transport-https"
